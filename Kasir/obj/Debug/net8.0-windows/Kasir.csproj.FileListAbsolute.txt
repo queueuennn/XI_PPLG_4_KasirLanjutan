@@ -1,0 +1,17 @@
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.Form1.resources
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.Form2.resources
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.csproj.GenerateResource.cache
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.GeneratedMSBuildEditorConfig.editorconfig
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.AssemblyInfoInputs.cache
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.AssemblyInfo.cs
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.csproj.CoreCompileInputs.cache
+D:\MK-2\Kasir\Kasir\Kasir\bin\Debug\net8.0-windows\Kasir.exe
+D:\MK-2\Kasir\Kasir\Kasir\bin\Debug\net8.0-windows\Kasir.deps.json
+D:\MK-2\Kasir\Kasir\Kasir\bin\Debug\net8.0-windows\Kasir.runtimeconfig.json
+D:\MK-2\Kasir\Kasir\Kasir\bin\Debug\net8.0-windows\Kasir.dll
+D:\MK-2\Kasir\Kasir\Kasir\bin\Debug\net8.0-windows\Kasir.pdb
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.dll
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\refint\Kasir.dll
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.pdb
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\Kasir.genruntimeconfig.cache
+D:\MK-2\Kasir\Kasir\Kasir\obj\Debug\net8.0-windows\ref\Kasir.dll
