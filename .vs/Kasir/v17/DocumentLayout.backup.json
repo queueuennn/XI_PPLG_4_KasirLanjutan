@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\MK-2\\Kasir\\Kasir\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|D:\\MK-2\\Kasir\\Kasir\\kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|D:\\MK-2\\Kasir\\Kasir\\kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|d:\\mk-2\\kasir\\kasir\\kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|d:\\mk-2\\kasir\\kasir\\kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|d:\\mk-2\\kasir\\kasir\\kasir\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|D:\\MK-2\\Kasir\\Kasir\\kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|d:\\mk-2\\kasir\\kasir\\kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|D:\\MK-2\\Kasir\\Kasir\\kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|solutionrelative:kasir\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31D952DB-3328-4CDC-AB21-450C68909FC6}|Kasir\\Kasir.csproj|d:\\mk-2\\kasir\\kasir\\kasir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form1.cs",
               "RelativeDocumentMoniker": "Kasir\\Form1.cs",
@@ -59,6 +59,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T05:21:06.395Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs",
+              "RelativeDocumentMoniker": "Kasir\\Form2.cs",
+              "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs",
+              "RelativeToolTip": "Kasir\\Form2.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAlwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T14:24:26.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,62 +87,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Kasir\\Form2.Designer.cs",
               "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.Designer.cs",
               "RelativeToolTip": "Kasir\\Form2.Designer.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T14:24:36.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs",
-              "RelativeDocumentMoniker": "Kasir\\Form2.cs",
-              "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs",
-              "RelativeToolTip": "Kasir\\Form2.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T14:24:26.39Z",
+              "WhenOpened": "2025-09-10T14:24:36.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Kasir\\Form1.Designer.cs",
               "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form1.Designer.cs",
               "RelativeToolTip": "Kasir\\Form1.Designer.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAtwN0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAYwGYBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T03:53:28.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs",
               "RelativeDocumentMoniker": "Kasir\\Form2.cs",
               "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form2.cs [Design]",
               "RelativeToolTip": "Kasir\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T03:18:17.95Z"
+              "WhenOpened": "2025-08-27T03:18:17.95Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form1.cs",
               "RelativeDocumentMoniker": "Kasir\\Form1.cs",
               "ToolTip": "D:\\MK-2\\Kasir\\Kasir\\Kasir\\Form1.cs",
               "RelativeToolTip": "Kasir\\Form1.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAhwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T05:23:55.591Z",
               "EditorCaption": ""

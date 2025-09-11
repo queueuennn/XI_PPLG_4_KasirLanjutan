@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kasir")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352b4a8ec63522ac38bab1701df06ced73cd5485")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kasir")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kasir")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             gbMakMin = new GroupBox();
+            nudMinuman = new NumericUpDown();
+            nudMakanan = new NumericUpDown();
             cmbMinuman = new ComboBox();
             cmbMakanan = new ComboBox();
             lblPilihMin = new Label();
@@ -45,50 +47,78 @@
             btnProses = new Button();
             btnTutup = new Button();
             btnSebelumnya = new Button();
-            nudMakanan = new NumericUpDown();
-            nudMinuman = new NumericUpDown();
             txtKasir = new TextBox();
             label6 = new Label();
             btnClear = new Button();
+            groupBox1 = new GroupBox();
+            label1 = new Label();
+            label2 = new Label();
             gbMakMin.SuspendLayout();
-            gbSub.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)nudMakanan).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudMinuman).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudMakanan).BeginInit();
+            gbSub.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // gbMakMin
             // 
+            gbMakMin.BackColor = Color.FromArgb(192, 210, 240);
             gbMakMin.Controls.Add(nudMinuman);
             gbMakMin.Controls.Add(nudMakanan);
             gbMakMin.Controls.Add(cmbMinuman);
             gbMakMin.Controls.Add(cmbMakanan);
             gbMakMin.Controls.Add(lblPilihMin);
             gbMakMin.Controls.Add(lblPilihMak);
-            gbMakMin.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gbMakMin.Location = new Point(58, 28);
+            gbMakMin.Font = new Font("Arial Rounded MT Bold", 13.8F);
+            gbMakMin.ForeColor = Color.FromArgb(50, 76, 120);
+            gbMakMin.Location = new Point(33, 46);
             gbMakMin.Name = "gbMakMin";
-            gbMakMin.Size = new Size(751, 177);
+            gbMakMin.Size = new Size(564, 183);
             gbMakMin.TabIndex = 0;
             gbMakMin.TabStop = false;
             gbMakMin.Text = "Daftar Makanan dan Minuman";
             // 
+            // nudMinuman
+            // 
+            nudMinuman.BackColor = Color.FromArgb(247, 242, 233);
+            nudMinuman.ForeColor = Color.FromArgb(67, 96, 143);
+            nudMinuman.Location = new Point(443, 105);
+            nudMinuman.Name = "nudMinuman";
+            nudMinuman.Size = new Size(101, 34);
+            nudMinuman.TabIndex = 5;
+            nudMinuman.ValueChanged += nudMinuman_ValueChanged;
+            // 
+            // nudMakanan
+            // 
+            nudMakanan.BackColor = Color.FromArgb(247, 242, 233);
+            nudMakanan.ForeColor = Color.FromArgb(67, 96, 143);
+            nudMakanan.Location = new Point(443, 54);
+            nudMakanan.Name = "nudMakanan";
+            nudMakanan.Size = new Size(101, 34);
+            nudMakanan.TabIndex = 4;
+            nudMakanan.ValueChanged += nudMakanan_ValueChanged;
+            // 
             // cmbMinuman
             // 
+            cmbMinuman.BackColor = Color.FromArgb(247, 242, 233);
+            cmbMinuman.ForeColor = Color.FromArgb(67, 96, 143);
             cmbMinuman.FormattingEnabled = true;
             cmbMinuman.Items.AddRange(new object[] { "Matcha", "Air", "Thai Tea" });
-            cmbMinuman.Location = new Point(164, 112);
+            cmbMinuman.Location = new Point(144, 105);
             cmbMinuman.Name = "cmbMinuman";
-            cmbMinuman.Size = new Size(360, 36);
+            cmbMinuman.Size = new Size(280, 35);
             cmbMinuman.TabIndex = 3;
             cmbMinuman.SelectedIndexChanged += cmbMinuman_SelectedIndexChanged;
             // 
             // cmbMakanan
             // 
+            cmbMakanan.BackColor = Color.FromArgb(247, 242, 233);
+            cmbMakanan.ForeColor = Color.FromArgb(67, 96, 143);
             cmbMakanan.FormattingEnabled = true;
             cmbMakanan.Items.AddRange(new object[] { "Katsu", "Ramen", "Sushi" });
-            cmbMakanan.Location = new Point(164, 60);
+            cmbMakanan.Location = new Point(144, 53);
             cmbMakanan.Name = "cmbMakanan";
-            cmbMakanan.Size = new Size(360, 36);
+            cmbMakanan.Size = new Size(280, 35);
             cmbMakanan.TabIndex = 2;
             cmbMakanan.SelectedIndexChanged += cmbMakanan_SelectedIndexChanged;
             // 
@@ -96,8 +126,8 @@
             // 
             lblPilihMin.AutoSize = true;
             lblPilihMin.Font = new Font("Arial", 10.2F, FontStyle.Bold);
-            lblPilihMin.ForeColor = Color.MidnightBlue;
-            lblPilihMin.Location = new Point(24, 122);
+            lblPilihMin.ForeColor = Color.FromArgb(50, 76, 120);
+            lblPilihMin.Location = new Point(4, 115);
             lblPilihMin.Name = "lblPilihMin";
             lblPilihMin.Size = new Size(117, 19);
             lblPilihMin.TabIndex = 1;
@@ -107,8 +137,8 @@
             // 
             lblPilihMak.AutoSize = true;
             lblPilihMak.Font = new Font("Arial", 10.2F, FontStyle.Bold);
-            lblPilihMak.ForeColor = Color.MidnightBlue;
-            lblPilihMak.Location = new Point(24, 70);
+            lblPilihMak.ForeColor = Color.FromArgb(50, 76, 120);
+            lblPilihMak.Location = new Point(4, 63);
             lblPilihMak.Name = "lblPilihMak";
             lblPilihMak.Size = new Size(116, 19);
             lblPilihMak.TabIndex = 0;
@@ -116,18 +146,22 @@
             // 
             // gbSub
             // 
+            gbSub.BackColor = Color.FromArgb(192, 210, 240);
             gbSub.Controls.Add(txtMinuman);
             gbSub.Controls.Add(txtMakanan);
-            gbSub.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gbSub.Location = new Point(847, 30);
+            gbSub.Font = new Font("Arial Rounded MT Bold", 13.8F);
+            gbSub.ForeColor = Color.FromArgb(50, 76, 120);
+            gbSub.Location = new Point(33, 270);
             gbSub.Name = "gbSub";
-            gbSub.Size = new Size(429, 175);
+            gbSub.Size = new Size(429, 183);
             gbSub.TabIndex = 1;
             gbSub.TabStop = false;
             gbSub.Text = "Sub Total";
             // 
             // txtMinuman
             // 
+            txtMinuman.BackColor = Color.FromArgb(247, 242, 233);
+            txtMinuman.Font = new Font("Arial Rounded MT Bold", 10.2F);
             txtMinuman.Location = new Point(34, 110);
             txtMinuman.Multiline = true;
             txtMinuman.Name = "txtMinuman";
@@ -136,6 +170,8 @@
             // 
             // txtMakanan
             // 
+            txtMakanan.BackColor = Color.FromArgb(247, 242, 233);
+            txtMakanan.Font = new Font("Arial Rounded MT Bold", 10.2F);
             txtMakanan.Location = new Point(34, 58);
             txtMakanan.Multiline = true;
             txtMakanan.Name = "txtMakanan";
@@ -146,8 +182,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label3.ForeColor = Color.MidnightBlue;
-            label3.Location = new Point(678, 231);
+            label3.ForeColor = Color.FromArgb(50, 76, 120);
+            label3.Location = new Point(11, 23);
             label3.Name = "label3";
             label3.Size = new Size(76, 24);
             label3.TabIndex = 2;
@@ -157,8 +193,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label4.ForeColor = Color.MidnightBlue;
-            label4.Location = new Point(678, 285);
+            label4.ForeColor = Color.FromArgb(50, 76, 120);
+            label4.Location = new Point(11, 77);
             label4.Name = "label4";
             label4.Size = new Size(73, 24);
             label4.TabIndex = 3;
@@ -168,8 +204,8 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label5.ForeColor = Color.MidnightBlue;
-            label5.Location = new Point(678, 342);
+            label5.ForeColor = Color.FromArgb(50, 76, 120);
+            label5.Location = new Point(11, 134);
             label5.Name = "label5";
             label5.Size = new Size(98, 24);
             label5.TabIndex = 4;
@@ -178,89 +214,94 @@
             // 
             // txtBayar
             // 
-            txtBayar.Location = new Point(820, 286);
+            txtBayar.BackColor = Color.FromArgb(247, 242, 233);
+            txtBayar.Font = new Font("Arial Rounded MT Bold", 10.2F);
+            txtBayar.ForeColor = Color.FromArgb(67, 96, 143);
+            txtBayar.Location = new Point(115, 70);
             txtBayar.Multiline = true;
             txtBayar.Name = "txtBayar";
-            txtBayar.Size = new Size(419, 36);
+            txtBayar.Size = new Size(277, 36);
             txtBayar.TabIndex = 3;
             txtBayar.TextChanged += txtBayar_TextChanged;
             // 
             // txtTotal
             // 
-            txtTotal.Location = new Point(820, 234);
+            txtTotal.BackColor = Color.FromArgb(247, 242, 233);
+            txtTotal.Font = new Font("Arial Rounded MT Bold", 10.2F);
+            txtTotal.ForeColor = Color.FromArgb(67, 96, 143);
+            txtTotal.Location = new Point(115, 18);
             txtTotal.Multiline = true;
             txtTotal.Name = "txtTotal";
-            txtTotal.Size = new Size(419, 36);
+            txtTotal.Size = new Size(277, 36);
             txtTotal.TabIndex = 2;
             // 
             // txtKembali
             // 
-            txtKembali.Location = new Point(820, 342);
+            txtKembali.BackColor = Color.FromArgb(247, 242, 233);
+            txtKembali.Font = new Font("Arial Rounded MT Bold", 10.2F);
+            txtKembali.ForeColor = Color.FromArgb(67, 96, 143);
+            txtKembali.Location = new Point(115, 126);
             txtKembali.Multiline = true;
             txtKembali.Name = "txtKembali";
-            txtKembali.Size = new Size(419, 36);
+            txtKembali.Size = new Size(277, 36);
             txtKembali.TabIndex = 5;
             // 
             // btnProses
             // 
-            btnProses.Location = new Point(972, 422);
+            btnProses.BackColor = Color.FromArgb(67, 96, 143);
+            btnProses.Font = new Font("Arial Rounded MT Bold", 9F);
+            btnProses.ForeColor = Color.FromArgb(252, 243, 222);
+            btnProses.Location = new Point(800, 484);
             btnProses.Name = "btnProses";
-            btnProses.Size = new Size(117, 32);
+            btnProses.Size = new Size(117, 44);
             btnProses.TabIndex = 6;
             btnProses.Text = "Proses";
-            btnProses.UseVisualStyleBackColor = true;
+            btnProses.UseVisualStyleBackColor = false;
             btnProses.Click += btnProses_Click;
             // 
             // btnTutup
             // 
-            btnTutup.Location = new Point(1122, 422);
+            btnTutup.BackColor = Color.FromArgb(67, 96, 143);
+            btnTutup.Font = new Font("Arial Rounded MT Bold", 9F);
+            btnTutup.ForeColor = Color.FromArgb(252, 243, 222);
+            btnTutup.Location = new Point(227, 490);
             btnTutup.Name = "btnTutup";
             btnTutup.Size = new Size(117, 32);
             btnTutup.TabIndex = 7;
             btnTutup.Text = "Tutup";
-            btnTutup.UseVisualStyleBackColor = true;
+            btnTutup.UseVisualStyleBackColor = false;
             btnTutup.Click += btnTutup_Click;
             // 
             // btnSebelumnya
             // 
-            btnSebelumnya.Location = new Point(58, 422);
+            btnSebelumnya.BackColor = Color.FromArgb(67, 96, 143);
+            btnSebelumnya.Font = new Font("Arial Rounded MT Bold", 9F);
+            btnSebelumnya.ForeColor = Color.FromArgb(252, 243, 222);
+            btnSebelumnya.Location = new Point(81, 490);
             btnSebelumnya.Name = "btnSebelumnya";
             btnSebelumnya.Size = new Size(117, 32);
             btnSebelumnya.TabIndex = 8;
             btnSebelumnya.Text = "Sebelumnya";
-            btnSebelumnya.UseVisualStyleBackColor = true;
+            btnSebelumnya.UseVisualStyleBackColor = false;
             btnSebelumnya.Click += btnSebelumnya_Click;
-            // 
-            // nudMakanan
-            // 
-            nudMakanan.Location = new Point(563, 61);
-            nudMakanan.Name = "nudMakanan";
-            nudMakanan.Size = new Size(101, 34);
-            nudMakanan.TabIndex = 4;
-            nudMakanan.ValueChanged += nudMakanan_ValueChanged;
-            // 
-            // nudMinuman
-            // 
-            nudMinuman.Location = new Point(563, 112);
-            nudMinuman.Name = "nudMinuman";
-            nudMinuman.Size = new Size(101, 34);
-            nudMinuman.TabIndex = 5;
-            nudMinuman.ValueChanged += nudMinuman_ValueChanged;
             // 
             // txtKasir
             // 
-            txtKasir.Location = new Point(221, 234);
+            txtKasir.BackColor = Color.FromArgb(247, 242, 233);
+            txtKasir.Font = new Font("Arial Rounded MT Bold", 10.2F);
+            txtKasir.ForeColor = Color.FromArgb(67, 96, 143);
+            txtKasir.Location = new Point(621, 193);
             txtKasir.Multiline = true;
             txtKasir.Name = "txtKasir";
-            txtKasir.Size = new Size(358, 36);
+            txtKasir.Size = new Size(259, 36);
             txtKasir.TabIndex = 9;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 12F, FontStyle.Bold);
-            label6.ForeColor = Color.MidnightBlue;
-            label6.Location = new Point(98, 239);
+            label6.ForeColor = Color.FromArgb(50, 76, 120);
+            label6.Location = new Point(621, 159);
             label6.Name = "label6";
             label6.Size = new Size(76, 24);
             label6.TabIndex = 10;
@@ -268,42 +309,83 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(820, 422);
+            btnClear.BackColor = Color.FromArgb(67, 96, 143);
+            btnClear.Font = new Font("Arial Rounded MT Bold", 9F);
+            btnClear.ForeColor = Color.FromArgb(252, 243, 222);
+            btnClear.Location = new Point(366, 490);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(117, 32);
             btnClear.TabIndex = 11;
             btnClear.Text = "Clear";
-            btnClear.UseVisualStyleBackColor = true;
+            btnClear.UseVisualStyleBackColor = false;
             btnClear.Click += btnClear_Click;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.FromArgb(192, 210, 240);
+            groupBox1.Controls.Add(txtBayar);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(txtTotal);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(txtKembali);
+            groupBox1.Location = new Point(488, 270);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(429, 183);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("MV Boli", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(247, 242, 233);
+            label1.Location = new Point(662, 70);
+            label1.Name = "label1";
+            label1.Size = new Size(201, 58);
+            label1.TabIndex = 12;
+            label1.Text = "NekoFee";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.FromArgb(247, 242, 233);
+            label2.Location = new Point(629, 123);
+            label2.Name = "label2";
+            label2.Size = new Size(268, 18);
+            label2.TabIndex = 13;
+            label2.Text = "Tempat hangat untuk cerita dan rasa.";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.SkyBlue;
-            ClientSize = new Size(1338, 534);
+            BackColor = Color.FromArgb(143, 165, 201);
+            ClientSize = new Size(960, 572);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(groupBox1);
             Controls.Add(btnClear);
             Controls.Add(label6);
             Controls.Add(txtKasir);
             Controls.Add(btnSebelumnya);
             Controls.Add(btnTutup);
             Controls.Add(btnProses);
-            Controls.Add(txtKembali);
-            Controls.Add(txtBayar);
-            Controls.Add(label5);
-            Controls.Add(txtTotal);
-            Controls.Add(label4);
-            Controls.Add(label3);
             Controls.Add(gbSub);
             Controls.Add(gbMakMin);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             gbMakMin.ResumeLayout(false);
             gbMakMin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudMinuman).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudMakanan).EndInit();
             gbSub.ResumeLayout(false);
             gbSub.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)nudMakanan).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudMinuman).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -332,5 +414,8 @@
         private TextBox txtKasir;
         private Label label6;
         private Button btnClear;
+        private GroupBox groupBox1;
+        private Label label1;
+        private Label label2;
     }
 }
